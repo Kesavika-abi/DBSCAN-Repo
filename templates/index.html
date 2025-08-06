@@ -1,0 +1,20 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geospatial Crime Hotspot Mapping</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Crime Hotspot Detection</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="file">Upload Crime Data (CSV):</label><br>
+            <input type="file" name="file" id="file" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

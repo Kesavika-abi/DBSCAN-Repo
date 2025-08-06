@@ -1,0 +1,23 @@
+<!-- templates/result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clustered Crime Map</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .map-container {
+            width: 90%;
+            height: 90vh;
+            margin: auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        {{ map|safe }}
+    </div>
+</body>
+</html>
