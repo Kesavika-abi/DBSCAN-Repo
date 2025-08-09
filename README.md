@@ -76,11 +76,17 @@ http://127.0.0.1:5000
 
  -Folium - Interactive Maps
 
-## screenshots
+## Screenshots
+
+## Input
 
 ![input](screenshots/input.png)
 
+## Load Data
+
 ![Load](screenshots/loaddata.png)
+
+## Output
 
 ![output](screenshots/output.png)
 
